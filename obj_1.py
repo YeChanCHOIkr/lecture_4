@@ -1,5 +1,10 @@
 class Cat:
-    pass
+    color = 'red'
+    def meow(self):
+        print('야옹~ 야옹~!')
 
 raon = Cat()
-print(raon)
+# print(raon)
+
+# raon()
+raon.meow()
