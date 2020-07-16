@@ -1,6 +1,6 @@
 class Cat:
-    color = 'red'
-    def meow(self):
+    color = 'red' #class variable / member
+    def meow(self): #instance method
         print('야옹~ 야옹~!')
 
 raon = Cat()
